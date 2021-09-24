@@ -1,0 +1,42 @@
+body {
+  background: rgb(65, 65, 65);
+  text-align: center;
+  min-width: 750px;
+}
+h1 {
+  color: white;
+  background: black;
+  padding: 1rem;
+}
+button {
+  margin: 0.25rem 0.25rem;
+}
+
+#wrapper {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+}
+
+#container {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.arr-btn {
+  display: flex;
+  justify-content: center;
+}
+.nav-bar {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.bars {
+  background: white;
+  width: 5px;
+  margin: 1px;
+}

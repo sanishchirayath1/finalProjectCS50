@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="sorting.css" />
+    <title>Sorting visualizer</title>
+  </head>
+  <body>
+    <h1>Sorting Visualizer</h1>
+    <div class="nav-bar">
+      <div class="arr-btn">
+        <button id="array" class="btn btn-dark">New array</button>
+      </div>
+      <div>
+        <button id="bubble-sort" class="btn btn-primary">Bubble sort</button>
+        <button id="selection-sort" class="btn btn-primary">
+          Selection sort
+        </button>
+        <button id="insertion-sort" class="btn btn-primary">
+          Insertion sort
+        </button>
+        <button id="quick-sort" class="btn btn-primary">Quick sort</button>
+        <button id="merge-sort" class="btn btn-primary">Merge sort</button>
+      </div>
+    </div>
+    <div id="wrapper"></div>
+
+    <script src="script.js"></script>
+    <script src="scripts/bubble.js"></script>
+    <script src="scripts/insertion.js"></script>
+    <script src="scripts/merge.js"></script>
+    <script src="scripts/quick.js"></script>
+    <script src="scripts/selection.js"></script
+  </body>
+</html>
