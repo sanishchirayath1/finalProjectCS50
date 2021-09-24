@@ -1,3 +1,10 @@
+const insertionBtn = document.getElementById("insertion-sort");
+
+insertionBtn.addEventListener("click", async function() {
+    await insertionSort();
+})
+
+
 async function insertionSort() {
     const elements = document.querySelectorAll(".bars");
     length = elements.length;
@@ -12,7 +19,7 @@ async function insertionSort() {
         while(j >= 0 && (parseInt(elements[j].style.height) > parseInt(key))){
         
             elements[j].style.background = 'red';
-            swap(elements[j],elements[j+1])
+            swap(elements[j+1], elements[j])
             j--;
 
             await wait(delay);
@@ -23,8 +30,4 @@ async function insertionSort() {
         }
     }    
 }
-const insertionBtn = document.getElementById("insertion-sort");
 
-insertionBtn.addEventListener("click", async function() {
-    await insertionSort();
-})

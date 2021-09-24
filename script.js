@@ -1,10 +1,39 @@
 const arrayBtn = document.getElementById("array");
 const wrapper = document.getElementById("wrapper");
+createBars()
 
 
 arrayBtn.addEventListener("click", function(){
-    
-   
+    createBars()
+})
+
+
+let delay = 2
+function wait(delay) { 
+    return new Promise(resolve => { 
+        setTimeout(() => { resolve('') }, delay); 
+    }) 
+}
+
+function clearBars() {
+    let container = document.getElementById("container");
+    container.remove();
+}
+
+function swap(el1,el2){
+  
+    const style1 = window.getComputedStyle(el1);
+    const style2 = window.getComputedStyle(el2);
+
+    const transform1 = style1.getPropertyValue("height");
+    const transform2 = style2.getPropertyValue("height");
+
+    el1.style.height = transform2;
+    el2.style.height = transform1;
+
+}
+
+function createBars(){
     try {
         clearBars()
     } catch {
@@ -25,30 +54,5 @@ arrayBtn.addEventListener("click", function(){
         bar.setAttribute("id", `el${i}`)
         container.appendChild(bar)
     }
-    
-})
-
-function clearBars() {
-    let container = document.getElementById("container");
-    container.remove();
 }
 
-function swap(el1,el2){
-  
-    const style1 = window.getComputedStyle(el1);
-    const style2 = window.getComputedStyle(el2);
-
-    const transform1 = style1.getPropertyValue("height");
-    const transform2 = style2.getPropertyValue("height");
-
-    el1.style.height = transform2;
-    el2.style.height = transform1;
-
-}
-
-let delay = 2
-function wait(delay) { 
-    return new Promise(resolve => { 
-        setTimeout(() => { resolve('') }, delay); 
-    }) 
-}

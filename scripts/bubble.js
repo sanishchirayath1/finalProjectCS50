@@ -1,3 +1,10 @@
+const bubbleBtn = document.getElementById("bubble-sort");
+
+bubbleBtn.addEventListener("click", async function() {
+    await bubbleSort();
+})
+
+
 async function bubbleSort() {
     const elements = document.querySelectorAll(".bars");
     length = elements.length;
@@ -19,11 +26,7 @@ async function bubbleSort() {
 }
 
 
-const bubbleBtn = document.getElementById("bubble-sort");
 
-bubbleBtn.addEventListener("click", async function() {
-    await bubbleSort();
-})
 
 
 
