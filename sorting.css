@@ -15,7 +15,7 @@ button {
 #wrapper {
   margin-top: 1rem;
   display: flex;
-  justify-content: center;
+  justify-content:center;
 }
 
 #container {
@@ -23,6 +23,7 @@ button {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  align-items:flex-end;
 }
 .arr-btn {
   display: flex;
