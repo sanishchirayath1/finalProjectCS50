@@ -13,3 +13,5 @@ The project showcases 6 buttons
 
 I hope to implement notes on each algorithms in the website itself so that people can more info about each sorting algorithms in the website itself. I have hosted the website on github. And i will be updating it.
 https://sanishchirayath1.github.io/sorting-visualiser/
+
+Along with understanding how to implemant the alorithms.I also got introduced to async, await functionalities of javascript.
