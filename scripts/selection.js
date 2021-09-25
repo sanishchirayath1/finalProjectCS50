@@ -18,7 +18,7 @@ async function selectionSort() {
             if(parseInt(elements[j].style.height) < parseInt(elements[min_index].style.height)){
                 elements[min_index].style.background = "white"
                 min_index = j
-                elements[min_index].style.background = "green"
+                elements[min_index].style.background = "blue"
             }
             else {
                 elements[j].style.background = 'white';
