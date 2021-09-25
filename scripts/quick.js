@@ -1,38 +1,64 @@
 const quickBtn = document.getElementById("quick-sort");
 
 quickBtn.addEventListener("click", async function() {
-    await quickSort();
-})
+    const array = document.querySelectorAll(".bars")
+    length = array.length;
+    let start = 0;
+    let end = length - 1;
+    await quickSort(start, end, array);
+});
+
 
 // main function
 async function quickSort(start, end, array) {
-    const elements = document.querySelectorAll(".bars");
-    length = elements.length; 
+    
     if (start < end){
-        p = partition(start,end,array)
+        let p = await partition(start,end,array)
 
-        quickSort(start, end, array)
-        quickSort(p + 1, end, array)
+        await quickSort(start, p - 1, array)
+        await quickSort(p + 1, end, array)
+    }
+    else {
+        if(start >= 0 && end >= 0 && start < array.length && end < array.length){
+            array[start].style.background = "green";
+            array[end].style.background = "green";
+           
+        }
     }
 }
 // partition function
-function partition(start, end, array){
-    pivot_index = star
-    pivot = array[pivot_index]
-
-    while(start < end){
-        
-        while(start < array.length && array[start] <= pivot){
-            start += 1
+async function partition(start, end, array){
+     
+    i =  start - 1  
+    
+    for (j = start; j <= end - 1; j++){
+        await wait(delay);
+        if (parseInt(array[j].style.height) < parseInt(array[end].style.height)){
+            i++;    
+            swap(array[i],array[j])
+            array[i].style.background = "red";
+            await wait(delay);
         }
-        while (array[end] > pivot) {
-            end -= 1
+        else{ 
+            array[j].style.background = "white";
         }
-
-        if(start < end){
-            swap(array[start], array[end])
-        }
+        await wait(delay);
     }
-    swap(array[end], array[pivot_index])
-    return end
+    i++
+    await wait(delay);
+    swap(array[i], array[end]); 
+    
+    array[end].style.background = "white";
+    array[i].style.background = "green";
+    await wait(delay);
+    
+    for(let k = 0; k < array.length; k++){
+        
+        if(array[k].style.background != "green"){
+            array[k].style.background = "yellow";
+        }
+        
+    }
+
+    return i;
 }
