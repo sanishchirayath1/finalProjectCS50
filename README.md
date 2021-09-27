@@ -1,4 +1,3 @@
-PS - working on array-resizing and speed sliders.
 
 # finalProjectCS50
 Made as a final project to CS50
