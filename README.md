@@ -6,8 +6,8 @@
 #### Decsription:
 
 Made as a final project to CS50
-I was clueless on what to do for the CS50 project. Where do people go to get some idea..Yes by googling it..I  stumbled upon "https://www.crio.do/projects/category/web-development-projects" then i chose to go with SORTING VISUALISER.
-"https://www.crio.do/projects/javascript-sorting-visualiser/"
+I was clueless on what to do for the CS50 project. Where do people go to get some idea..Yes by googling it..I  stumbled upon <https://www.crio.do/projects/category/web-development-projects> then i chose to go with SORTING VISUALISER.
+<https://www.crio.do/projects/javascript-sorting-visualiser/>
 
 Why sorting Visualizer? :
 
@@ -24,7 +24,7 @@ The project showcases 6 buttons and 2 sliders
 I have also added colors on distince steps of sorting so that people can easily comprehend whats happening with each sort
 
 I hope to implement notes on each algorithms in the website itself so that people can more info about each sorting algorithms in the website itself. I have hosted the website on github. And i will be updating it.
-https://sanishchirayath1.github.io/sorting-visualiser/
+<https://sanishchirayath1.github.io/sorting-visualiser/>
 
 
 
