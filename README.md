@@ -10,9 +10,9 @@ Bubble sort,selection sort,insertion sort were realtively simple to implement.Bu
 
 The project showcases 6 buttons and 2 sliders
 1) New Array: Creates new array with random numbers each time
-2) buttons to visualize each sorts
-3)slider for resizing the array
-4)slider for changing the speed of sort
+2) Buttons to visualize each sorts
+3) Slider for resizing the array
+4) Slider for changing the speed of sort
 
 I hope to implement notes on each algorithms in the website itself so that people can more info about each sorting algorithms in the website itself. I have hosted the website on github. And i will be updating it.
 https://sanishchirayath1.github.io/sorting-visualiser/
