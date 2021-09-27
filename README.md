@@ -1,9 +1,9 @@
 
-# finalProjectCS50
+# Sorting Visualizer
 
-#### Video Demo:  <https://www.youtube.com/watch?v=IHIBQ0xY5Go>
+### Video Demo:  <https://www.youtube.com/watch?v=IHIBQ0xY5Go>
 
-#### Decsription:
+### Decsription:
 
 Made as a final project to CS50
 I was clueless on what to do for the CS50 project. Where do people go to get some idea..Yes by googling it..I  stumbled upon <https://www.crio.do/projects/category/web-development-projects> then i chose to go with SORTING VISUALISER.
@@ -22,6 +22,22 @@ The project showcases 6 buttons and 2 sliders
 4) Slider for changing the speed of sort
 
 I have also added colors on distince steps of sorting so that people can easily comprehend whats happening with each sort.I have disabled other sort buttons.resize-slider to eliminate conflicts
+
+####Bubble Sort:
+Conceptually bubble-sort was relatively easier to understand.The process checks for the largest element of rest of the array and bubble it outward.
+The challenge was to implement the how to visualize the sort.I ended up giving sorted elements green color and for the un-sorted white. To emphasis that the sorting is going on i added red color as a way to visualize searching through the array for the largest element.
+
+####Selection Sort:
+selection sort was more or like a bubble sort in reverse.The code was searching for the lowest element in remaining array and push it to the front.i
+
+####Insertion Sort:
+
+
+####Quick Sort:
+
+
+####Merge Sort:
+
 
 I hope to implement notes on each algorithms in the website itself so that people can more info about each sorting algorithms in the website itself. I have hosted the website on github. And i will be updating it.
 <https://sanishchirayath1.github.io/sorting-visualiser/>
