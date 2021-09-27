@@ -1,16 +1,23 @@
 const arrayBtn = document.getElementById("array");
 const wrapper = document.getElementById("wrapper");
-createBars()
-
+const resizeSlider = document.getElementById("resize")
+const speedSlider = document.getElementById("speed")
+createBars(parseInt(resizeSlider.value))
 
 arrayBtn.addEventListener("click", function(){
     buttonsDisabled()
-    createBars()
+    createBars(parseInt(resizeSlider.value))
     buttonsEnabled()
+})
+resizeSlider.addEventListener("click", function(){
+    createBars(parseInt(resizeSlider.value))
+})
+speedSlider.addEventListener("click", function(){
+    delay = 101 - speedSlider.value;
 })
 
 
-let delay = 2
+let delay = 101 - speedSlider.value
 function wait(delay) { 
     return new Promise(resolve => { 
         setTimeout(() => { resolve('') }, delay); 
@@ -35,7 +42,7 @@ function swap(element1,element2){
 
 }
 
-function createBars(){
+function createBars(num){
     try {
         clearBars()
     } catch {
@@ -45,11 +52,11 @@ function createBars(){
     let container = document.createElement("div");
     container.setAttribute("id", "container")
     wrapper.appendChild(container)
-    for (i = 0; i < 100; i++) {
-        array.push(Math.floor(Math.random() * 100 + 1))
+    for (i = 0; i < num; i++) {
+        array.push(Math.floor(Math.random() * num + 1))
     }
 
-    for(i = 0; i < 100; i++){
+    for(i = 0; i < num; i++){
         const bar = document.createElement("div")
         bar.style.height = `${array[i] * 5}px`
         bar.classList.add("bars")
@@ -58,6 +65,7 @@ function createBars(){
 }
 
 function buttonsDisabled() {
+    resizeSlider.disabled = true;
     quickBtn.disabled = true;
     bubbleBtn.disabled = true;
     selectionBtn.disabled = true;
@@ -66,6 +74,7 @@ function buttonsDisabled() {
 
 }
 function buttonsEnabled() {
+    resizeSlider.disabled = false;
     quickBtn.disabled = false;
     bubbleBtn.disabled = false;
     selectionBtn.disabled = false;
