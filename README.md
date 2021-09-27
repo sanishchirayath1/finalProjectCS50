@@ -38,7 +38,13 @@ Quick sort was the toughest sort I have done so far.I have gone through the **ge
 It comprised of two functions **Quick sort-function** as well as **partition function** .It chooses a pivot point and pushes all elements greater than the pivot point after it.then sort it so that every thing is in order. I acheived the visualization using the same idea where i put green for sorted array and red for the process of sorting. As the elements in unsorted part is also had a displacement i chose to go with yellow to signify that the elements have moved but not yet sorted.I gave pivot points green to identify it.
 
 #### Merge Sort:
-Merge sort was similar to quick sort .It takes more discplined way of sorting an array i would say.It divides the array in to halves recursively and sort them by comparing them at the lowest level possible.Then merges and sorts them together to take it's final form.It was also difficult to implement but i found ti easier than quick sort..but not by much...Like my previous sorts,I chose to go with green for sorted array and red for the process of getting sorted 
+Merge sort was similar to quick sort .It takes more discplined way of sorting an array i would say.It divides the array in to halves recursively and sort them by comparing them at the lowest level possible.Then merges and sorts them together to take it's final form.It was also difficult to implement but i found ti easier than quick sort..but not by much...Like my previous sorts,I chose to go with green for sorted array and red for the process of getting sorted.To signify that the array are semi-sorted i used yellow color.
+
+#### Size Slider:
+I saw a functionality of resizing the array on the project template.So i went on to implement it so that my project can be more interactive. I changed the createBars() function to take an argument. I attached an event listener to the slider and added tha value as a parameter to the function.That introduced a bug where bars where not showing when **New Array** button was clicked .I quickly solved it by adding them slider input inside the eventlistner attached to the array button
+
+#### Speed Slider:
+I implemented delay variable to take the value of slider value
 
 I hope to implement notes on each algorithms in the website itself so that people can more info about each sorting algorithms in the website itself. I have hosted the website on github. And i will be updating it.
 <https://sanishchirayath1.github.io/sorting-visualiser/>
