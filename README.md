@@ -31,10 +31,11 @@ The challenge was to implement the how to visualize the sort.I ended up giving s
 selection sort was more or like a bubble sort in reverse.The code was searching for the lowest element in remaining array and push it to the front.I decided to go with same theme of color where green represents sorted array and red represents searching through the array.To signify elements being swapped, I added blue color for the swapping elements
 
 #### Insertion Sort:
-
+Insertion sort consider first element as sorted and place the next element accroding to its order.That means it is contantly grabbing the first element of un-sorted array and place it inside the sorted array where it belong.
 
 #### Quick Sort:
-
+Quick sort was the toughest sort I have done so far.I have gone through the **geeksforgeeks** documentation of quick-sort  several times to understand the sort.
+It comprised of two functions **Quick sort-function** as well as **partition function**
 
 #### Merge Sort:
 
