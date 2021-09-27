@@ -51,7 +51,7 @@ I added both sliders as a span element in the index.html file for not to add an 
 
 I chose to go with a darker shades to be easy on eyes.I didn't try to make it responsive on smaller screen.I wish to add a media-query and some alignment changes for better small-screen usability.It needs more work.I used boot-strap design for buttons.
 
-I hope to implement notes on each algorithms in the website itself so that people can more info about each sorting algorithms in the website itself. I have hosted the website on github. And i will be updating it.
+I hope to implement notes on each algorithms in the website itself so that people can more info about each sorting algorithms in the website itself. I have hosted the website on github. And I will be updating it.
 <https://sanishchirayath1.github.io/sorting-visualiser/>
 
 
