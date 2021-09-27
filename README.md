@@ -35,10 +35,10 @@ Insertion sort consider first element as sorted and place the next element accro
 
 #### Quick Sort:
 Quick sort was the toughest sort I have done so far.I have gone through the **geeksforgeeks** documentation of quick-sort  several times to understand the sort.
-It comprised of two functions **Quick sort-function** as well as **partition function**
+It comprised of two functions **Quick sort-function** as well as **partition function** .It chooses a pivot point and pushes all elements greater than the pivot point after it.then sort it so that every thing is in order. I acheived the visualization using the same idea where i put green for sorted array and red for the process of sorting. As the elements in unsorted part is also had a displacement i chose to go with yellow to signify that the elements have moved but not yet sorted.I gave pivot points green to identify it.
 
 #### Merge Sort:
-
+Merge sort was similar to quick sort .It takes more discplined way of sorting an array i would say.It divides the array in to halves recursively and sort them by comparing them at the lowest level possible.Then merges and sorts them together to take it's final form.It was also difficult to implement but i found ti easier than quick sort..but not by much...Like my previous sorts,I chose to go with green for sorted array and red for the process of getting sorted 
 
 I hope to implement notes on each algorithms in the website itself so that people can more info about each sorting algorithms in the website itself. I have hosted the website on github. And i will be updating it.
 <https://sanishchirayath1.github.io/sorting-visualiser/>
