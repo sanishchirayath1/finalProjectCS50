@@ -9,9 +9,11 @@ Data structures and algorithPS-working on merge-sort.....ms part of CS50 course 
 
 Bubble sort,selection sort,insertion sort were realtively simple to implement.But Quick and Merge were challenging.The real challenge was to make the sorts visualize in a way that that others can comprehend what is happening with each sort.I had my fair share of struggles.But i am happy that finally,i was able to complete it.
 
-The project showcases 6 buttons
+The project showcases 6 buttons and 2 sliders
 1) New Array: Creates new array with random numbers each time
-2-6) buttons to visualize each sorts
+2) buttons to visualize each sorts
+3)slider for resizing the array
+4)slider for changing the speed of sort
 
 I hope to implement notes on each algorithms in the website itself so that people can more info about each sorting algorithms in the website itself. I have hosted the website on github. And i will be updating it.
 https://sanishchirayath1.github.io/sorting-visualiser/
