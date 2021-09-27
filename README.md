@@ -3,7 +3,7 @@
 
 #### Video Demo:  <https://www.youtube.com/watch?v=IHIBQ0xY5Go>
 
-#### vDecsription:
+#### Decsription:
 
 Made as a final project to CS50
 I was clueless on what to do for the CS50 project. Where do people go to get some idea..Yes by googling it..I  stumbled upon "https://www.crio.do/projects/category/web-development-projects" then i chose to go with SORTING VISUALISER.
