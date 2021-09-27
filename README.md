@@ -23,20 +23,20 @@ The project showcases 6 buttons and 2 sliders
 
 I have also added colors on distince steps of sorting so that people can easily comprehend whats happening with each sort.I have disabled other sort buttons.resize-slider to eliminate conflicts
 
-####Bubble Sort:
+#### Bubble Sort:
 Conceptually bubble-sort was relatively easier to understand.The process checks for the largest element of rest of the array and bubble it outward.
 The challenge was to implement the how to visualize the sort.I ended up giving sorted elements green color and for the un-sorted white. To emphasis that the sorting is going on i added red color as a way to visualize searching through the array for the largest element.
 
-####Selection Sort:
+#### Selection Sort:
 selection sort was more or like a bubble sort in reverse.The code was searching for the lowest element in remaining array and push it to the front.I decided to go with same theme of color where green represents sorted array and red represents searching through the array.To signify elements being swapped, I added blue color for the swapping elements
 
-####Insertion Sort:
+#### Insertion Sort:
 
 
-####Quick Sort:
+#### Quick Sort:
 
 
-####Merge Sort:
+#### Merge Sort:
 
 
 I hope to implement notes on each algorithms in the website itself so that people can more info about each sorting algorithms in the website itself. I have hosted the website on github. And i will be updating it.
