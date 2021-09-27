@@ -6,7 +6,8 @@ Video Demo:  <https://www.youtube.com/watch?v=IHIBQ0xY5Go>
 Decsription:
 
 Made as a final project to CS50
-I was clueless on what to do for the CS50 project. Where do people go to get some idea..Yes by googling it..I  stumbled upon "https://www.crio.do/projects/category/web-development-projects" then i chose to go with SORTING VISUALISER as it complements the skills that i already have."https://www.crio.do/projects/javascript-sorting-visualiser/"
+I was clueless on what to do for the CS50 project. Where do people go to get some idea..Yes by googling it..I  stumbled upon "https://www.crio.do/projects/category/web-development-projects" then i chose to go with SORTING VISUALISER.
+"https://www.crio.do/projects/javascript-sorting-visualiser/"
 
 Why sorting Visualizer? :
 
