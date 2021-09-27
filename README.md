@@ -28,7 +28,7 @@ Conceptually bubble-sort was relatively easier to understand.The process checks 
 The challenge was to implement the how to visualize the sort.I ended up giving sorted elements green color and for the un-sorted white. To emphasis that the sorting is going on i added red color as a way to visualize searching through the array for the largest element.
 
 ####Selection Sort:
-selection sort was more or like a bubble sort in reverse.The code was searching for the lowest element in remaining array and push it to the front.i
+selection sort was more or like a bubble sort in reverse.The code was searching for the lowest element in remaining array and push it to the front.I decided to go with same theme of color where green represents sorted array and red represents searching through the array.To signify elements being swapped, I added blue color for the swapping elements
 
 ####Insertion Sort:
 
