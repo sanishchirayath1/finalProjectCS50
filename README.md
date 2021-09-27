@@ -46,10 +46,10 @@ I saw a functionality of resizing the array on the project template.So i went on
 #### Speed Slider:
 I implemented delay variable to take the value of slider value.But the speed was reducing when slider is at maximum .so i chose to add a substraction method to make the slider more straight-forward to work with.It works in between *1ms* to *100ms* delay. 
 
+#### Design:
+I added both sliders as a span element in the index.html file for not to add an additinal class for adding some padding to the slider.I used align-items: center to vertically align the slider inside the div.It was looking weird before.I selected both sliders using **span** and went on to declare padding. 
 
-I added both sliders as a span element in the index.html file for not to add an additinal class for adding some padding to the slider.I selected both sliders using **span** and went on to declare padding
-
-
+I chose to go with a darker shades to be easy on eyes.I didn't try to make it responsive on smaller screen.I wish to add a media-query and some alignment changes for better small-screen usability.It needs more work.I used boot-strap design for buttons.
 
 I hope to implement notes on each algorithms in the website itself so that people can more info about each sorting algorithms in the website itself. I have hosted the website on github. And i will be updating it.
 <https://sanishchirayath1.github.io/sorting-visualiser/>
