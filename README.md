@@ -44,7 +44,12 @@ Merge sort was similar to quick sort .It takes more discplined way of sorting an
 I saw a functionality of resizing the array on the project template.So i went on to implement it so that my project can be more interactive. I changed the createBars() function to take an argument. I attached an event listener to the slider and added tha value as a parameter to the function.That introduced a bug where bars where not showing when **New Array** button was clicked .I quickly solved it by adding them slider input inside the eventlistner attached to the array button
 
 #### Speed Slider:
-I implemented delay variable to take the value of slider value
+I implemented delay variable to take the value of slider value.But the speed was reducing when slider is at maximum .so i chose to add a substraction method to make the slider more straight-forward to work with.It works in between *1ms* to *100ms* delay. 
+
+
+I added both sliders as a span element in the index.html file for not to add an additinal class for adding some padding to the slider.I selected both sliders using **span** and went on to declare padding
+
+
 
 I hope to implement notes on each algorithms in the website itself so that people can more info about each sorting algorithms in the website itself. I have hosted the website on github. And i will be updating it.
 <https://sanishchirayath1.github.io/sorting-visualiser/>
