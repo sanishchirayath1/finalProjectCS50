@@ -21,7 +21,7 @@ The project showcases 6 buttons and 2 sliders
 3) Slider for resizing the array
 4) Slider for changing the speed of sort
 
-I have also added colors on distince steps of sorting so that people can easily comprehend whats happening with each sort
+I have also added colors on distince steps of sorting so that people can easily comprehend whats happening with each sort.I have disabled other sort buttons.resize-slider to eliminate conflicts
 
 I hope to implement notes on each algorithms in the website itself so that people can more info about each sorting algorithms in the website itself. I have hosted the website on github. And i will be updating it.
 <https://sanishchirayath1.github.io/sorting-visualiser/>
