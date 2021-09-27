@@ -1,4 +1,4 @@
-PS - working on merge-sort, array resizing, speed of sorting,also on disabling buttons while the sorting is going on...
+PS - working on array-resizing and speed sliders.
 
 # finalProjectCS50
 Made as a final project to CS50
