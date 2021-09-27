@@ -5,7 +5,9 @@ quickBtn.addEventListener("click", async function() {
     length = array.length;
     let start = 0;
     let end = length - 1;
+    buttonsDisabled()
     await quickSort(start, end, array);
+    buttonsEnabled()
 });
 
 
@@ -13,6 +15,7 @@ quickBtn.addEventListener("click", async function() {
 async function quickSort(start, end, array) {
     
     if (start < end){
+        //p is partition_index
         let p = await partition(start,end,array)
 
         await quickSort(start, p - 1, array)
@@ -26,15 +29,21 @@ async function quickSort(start, end, array) {
         }
     }
 }
-// partition function
+/* partition function takes last element as pivot ,places the pivot element at its correct
+position in sorted array, and places all smaller (smaller than pivot) to left and all greater than elements to the right of pivot
+*/
 async function partition(start, end, array){
-     
+    
+    //pivot - the element to be placed at the right position
+    pivot = array[end]
+    /*Index of smaller element and indicates the right position found so far*/
     i =  start - 1  
     
     for (j = start; j <= end - 1; j++){
         await wait(delay);
-        if (parseInt(array[j].style.height) < parseInt(array[end].style.height)){
-            i++;    
+        //if current element height is smaller than the pivot
+        if (parseInt(array[j].style.height) < parseInt(pivot.style.height)){
+            i++; //increment the index of smalller element   
             swap(array[i],array[j])
             array[i].style.background = "red";
             await wait(delay);
@@ -46,9 +55,10 @@ async function partition(start, end, array){
     }
     i++
     await wait(delay);
-    swap(array[i], array[end]); 
+    //swaps the element with pivot
+    swap(array[i], pivot); 
     
-    array[end].style.background = "white";
+    pivot.style.background = "white";
     array[i].style.background = "green";
     await wait(delay);
     

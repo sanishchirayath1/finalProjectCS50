@@ -1,10 +1,12 @@
 const insertionBtn = document.getElementById("insertion-sort");
 
 insertionBtn.addEventListener("click", async function() {
+    buttonsDisabled();
     await insertionSort();
+    buttonsEnabled();
 })
 
-
+//function for insertion sort 
 async function insertionSort() {
     const elements = document.querySelectorAll(".bars");
     length = elements.length;
@@ -15,7 +17,7 @@ async function insertionSort() {
         elements[i].style.background = 'red';
 
         await wait(delay);
-
+        //move elements that are greater tha key one position ahead of their position
         while(j >= 0 && (parseInt(elements[j].style.height) > parseInt(key))){
         
             elements[j].style.background = 'red';

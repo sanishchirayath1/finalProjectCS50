@@ -4,7 +4,9 @@ createBars()
 
 
 arrayBtn.addEventListener("click", function(){
+    buttonsDisabled()
     createBars()
+    buttonsEnabled()
 })
 
 
@@ -20,16 +22,16 @@ function clearBars() {
     container.remove();
 }
 
-function swap(el1,el2){
+function swap(element1,element2){
   
-    const style1 = window.getComputedStyle(el1);
-    const style2 = window.getComputedStyle(el2);
+    const style1 = window.getComputedStyle(element1);
+    const style2 = window.getComputedStyle(element2);
 
     const transform1 = style1.getPropertyValue("height");
     const transform2 = style2.getPropertyValue("height");
 
-    el1.style.height = transform2;
-    el2.style.height = transform1;
+    element1.style.height = transform2;
+    element2.style.height = transform1;
 
 }
 
@@ -51,8 +53,23 @@ function createBars(){
         const bar = document.createElement("div")
         bar.style.height = `${array[i] * 5}px`
         bar.classList.add("bars")
-        bar.setAttribute("id", `el${i}`)
         container.appendChild(bar)
     }
 }
 
+function buttonsDisabled() {
+    quickBtn.disabled = true;
+    bubbleBtn.disabled = true;
+    selectionBtn.disabled = true;
+    mergeBtn.disabled = true;
+    insertionBtn.disabled = true;
+
+}
+function buttonsEnabled() {
+    quickBtn.disabled = false;
+    bubbleBtn.disabled = false;
+    selectionBtn.disabled = false;
+    mergeBtn.disabled = false;
+    insertionBtn.disabled = false;
+
+}
