@@ -33,10 +33,7 @@ button {
 span {
   padding: 0.5rem;
 }
-.arr-btn {
-  display: flex;
-  justify-content: center;
-}
+
 .nav-bar {
   margin-top: 1rem;
   display: flex;
