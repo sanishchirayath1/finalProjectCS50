@@ -27,10 +27,14 @@ button {
 #input {
   color: white;
   display: flex;
-  align-items: center;
+  flex-wrap: wrap;
 }
-span {
+
+.sliders {
   padding: 0.5rem;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
 }
 
 .nav-bar {
@@ -42,6 +46,14 @@ span {
 }
 .bars {
   background: white;
-  width: 5px;
-  margin: 1px;
+  width: 0.5vw;
+  margin: 0.1vw;
+}
+.input {
+  display: flex;
+}
+.center {
+  display: flex;
+  justify-content: center;
+  padding-top: 10vh;
 }

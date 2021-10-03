@@ -25,12 +25,12 @@
         <button id="array" class="btn btn-dark">New array</button>
       </div>
       <div id="input">
-        <span><div>Size</div>
+        <div class="sliders"><div>Size</div>
             <input id="resize" type="range" min="20" max="120" step=1 value=80>
-        </span>
-        <span> <div>Speed</div> 
+        </div>
+        <div class="sliders"> <div>Speed</div> 
             <input id="speed" type="range" min="1" max="100" step=1 value=100>
-        </span>
+        </div>
     </div>
       <div>
         <button id="bubble-sort" class="btn btn-primary">Bubble sort</button>
@@ -44,7 +44,10 @@
         <button id="merge-sort" class="btn btn-primary">Merge sort</button>
       </div>
     </div>
-    <div id="wrapper"></div>
+    <div class="center">
+      <div id="wrapper"></div>
+    </div>
+    
 
     <script src="script.js"></script>
     <script src="scripts/bubble.js"></script>
