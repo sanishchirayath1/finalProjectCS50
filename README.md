@@ -1,7 +1,8 @@
 
 # Sorting Visualizer
+<!-- https://sanishchirayath1.github.io/sorting-visualiser/ -->
 <p align="center">	<!-- (optional) center align -->
-    <img src="download.svg" width="400px">
+    <a href="https://sanishchirayath1.github.io/sorting-visualiser/"><img src="download.svg" width="400px"><a>
 </p>
 
 ### Video Demo:  <https://www.youtube.com/watch?v=IHIBQ0xY5Go>
