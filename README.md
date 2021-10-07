@@ -1,8 +1,8 @@
 
 # Sorting Visualizer
-<!-- https://sanishchirayath1.github.io/sorting-visualiser/ -->
+<!-- https://pagespeed-insights.herokuapp.com/?url=https://sanishchirayath1.github.io/sorting-visualiser/-->
 <p align="center">	<!-- (optional) center align -->
-    <a href="https://sanishchirayath1.github.io/sorting-visualiser/"><img src="download.svg" width="400px"><a>
+    <a href="https://pagespeed-insights.herokuapp.com/?url=https://sanishchirayath1.github.io/sorting-visualiser/"><img src="download.svg" width="400px"><a>
 </p>
 
 ### Video Demo:  <https://www.youtube.com/watch?v=IHIBQ0xY5Go>
