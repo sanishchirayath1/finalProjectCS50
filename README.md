@@ -1,6 +1,7 @@
 
 # Sorting Visualizer
 <!-- https://pagespeed-insights.herokuapp.com/?url=https://sanishchirayath1.github.io/sorting-visualiser/-->
+<!-- Repo: https://github.com/ankurparihar/readme-pagespeed-insights -->
 <p align="center">	<!-- (optional) center align -->
     <a href="https://pagespeed-insights.herokuapp.com/?url=https://sanishchirayath1.github.io/sorting-visualiser/"><img src="download.svg" width="400px"><a>
 </p>
