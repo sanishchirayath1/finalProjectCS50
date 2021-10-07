@@ -1,5 +1,8 @@
 
 # Sorting Visualizer
+<p align="center">	<!-- (optional) center align -->
+    <img src="download.svg" width="400px">
+</p>
 
 ### Video Demo:  <https://www.youtube.com/watch?v=IHIBQ0xY5Go>
 
